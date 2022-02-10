@@ -23,5 +23,5 @@ func main() {
         server_port := os.Args[1]
 
         // set up web server
-        _____________________
+        http.ListenAndServe(":8080"+server_port, nil)
 }
